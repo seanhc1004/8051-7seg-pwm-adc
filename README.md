@@ -38,5 +38,5 @@
 7. P3.2 (/INT0) -> Pushbutton (blink 3×)
 8. P0[7:0] -> ADC data (e.g., ADC0804 DB0~DB7)
 
-###Author
-吳炳煌、張慎修、張世偉、楊萬按
+### Author
+作者（台師大）：吳炳煌、張慎修、張世偉、楊萬按
