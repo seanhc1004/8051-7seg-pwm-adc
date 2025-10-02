@@ -29,6 +29,7 @@
 ![Circuit](media/circuit.png)
 
 ### Pin Map (quick)
+
 1. P2[7:0] -> 7-seg (active-low, CA table)
 2. P1.4..P1.7 -> DIG1~DIG4 (active-low)
 3. P1.3 -> PWM OUT (200 Hz)
@@ -41,6 +42,6 @@
 ---
 
 ### Authors
-作者（台師大）：吳炳煌、張慎修、張世偉、楊萬按
 
----
+作者（台師大）
+- 吳炳煌、張慎修、張世偉、楊萬按
