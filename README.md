@@ -34,14 +34,9 @@
 3. P1.3 -> PWM OUT (200 Hz)
 4. P1.2 -> Duty select (0=ID, 1=ADC)
 5. P1.1 -> Display select (0=voltage, 1=count)
-6. P1.0 (T2) <- Pulse input
-7. P3.2 (/INT0)<- Pushbutton (blink 3×)
-8. P0[7:0] <- ADC data (e.g., ADC0804 DB0~DB7)
----
+6. P1.0 (T2) -> Pulse input
+7. P3.2 (/INT0) -> Pushbutton (blink 3×)
+8. P0[7:0] -> ADC data (e.g., ADC0804 DB0~DB7)
 
-## Build & Flash
-1. Open **Keil µVision**, create a new 8051 project (target **AT89S52**, 12 MHz).
-2. Add `main.asm`, assemble/build.
-3. Program the chip (e.g., **PROISP**).
-4. Power the board; verify display, PWM (scope), and blink on `/INT0`.
-
+###Author
+吳炳煌、張慎修、張世偉、楊萬按
