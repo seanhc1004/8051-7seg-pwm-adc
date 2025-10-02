@@ -29,14 +29,14 @@
 ![Circuit](media/circuit.png)
 
 ### Pin Map (quick)
-P2[7:0] -> 7-seg a..dp (active-low, CA table)
-P1.4..P1.7 -> DIG1~DIG4 (active-low)
-P1.3 -> PWM OUT (200 Hz)
-P1.2 -> Duty select (0=ID, 1=ADC)
-P1.1 -> Display select (0=voltage, 1=count)
-P1.0 (T2) <- Pulse input
-P3.2 (/INT0)<- Pushbutton (blink 3×)
-P0[7:0] <- ADC data (e.g., ADC0804 DB0..DB7)
+1. P2[7:0] -> 7-seg (active-low, CA table)
+2. P1.4..P1.7 -> DIG1~DIG4 (active-low)
+3. P1.3 -> PWM OUT (200 Hz)
+4. P1.2 -> Duty select (0=ID, 1=ADC)
+5. P1.1 -> Display select (0=voltage, 1=count)
+6. P1.0 (T2) <- Pulse input
+7. P3.2 (/INT0)<- Pushbutton (blink 3×)
+8. P0[7:0] <- ADC data (e.g., ADC0804 DB0~DB7)
 ---
 
 ## Build & Flash
